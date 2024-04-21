@@ -1151,6 +1151,11 @@ body {
   margin: 0 auto;
 }
 
+button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /* Typography */
 
 html {
@@ -1160,7 +1165,7 @@ html {
   line-height: 1.5;
 }
 
-h1 {
+h1, button {
   font-family: 'Recursive', monospace;
   font-size: 1.5rem;
   font-variation-settings: "CASL" .5, "MONO" 0, "CRSV" .5;
@@ -1177,7 +1182,3 @@ p {
 
 /* Button */
 
-button {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
