@@ -1137,11 +1137,15 @@ body {
   padding: 3rem;
 }
 
+main {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 .talk {
   padding: 4rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background-color: lightskyblue;
   color: black;
   border-radius: 4px;
 }
