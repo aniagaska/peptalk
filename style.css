@@ -1,6 +1,3 @@
-/* add google font */
-
-@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
 
 /*! 
  * Primitive UI | MIT License
@@ -1129,6 +1126,8 @@ caption {
   }
 }
 
+/* I think this is where my nonesense starts */
+
 /**
  * Layout
  */
@@ -1144,26 +1143,20 @@ body {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 500px) {
-  html {
-    font-size: 20px;
-  }
-  header,
-  main,
-  footer {
-    padding-left: 2rem;
-  }
-  .talk {
-    padding-bottom: 4rem;
-    padding-left: 2rem;
-  }
-}
-
 /* Typography */
 
+html {
+  font-size: 18px;
+  /* https://www.recursive.design/ */
+  font-family: 'Recursive', monospace;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
 .talk {
-  font-family: "Homemade Apple", cursive;
+  font-variation-settings: "CASL" 1, "MONO" 0, "WGHT" 550;
   font-size: 2.5rem;
   line-height: 2;
-  color: navy;
 }
