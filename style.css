@@ -1134,13 +1134,14 @@ caption {
 
 body {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .talk {
-  padding: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: lightskyblue;
 }
 
 /* Typography */
@@ -1160,10 +1161,16 @@ h1 {
 
 p {
   font-variation-settings: "CASL" 1, "MONO" 0, "CRSV" .5;
-  font-style: italic;
 }
 
 .talk {
   font-variation-settings: "CASL" 1, "MONO" 0, "CRSV" 1;
   font-size: 2.5rem;
+}
+
+/* Button */
+
+button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
