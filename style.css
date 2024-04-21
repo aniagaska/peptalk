@@ -1143,10 +1143,9 @@ main {
 }
 
 .talk {
-  padding: 4rem;
+  padding-top: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  color: black;
   border-radius: 4px;
 }
 
@@ -1169,6 +1168,10 @@ html {
   line-height: 1.5;
 }
 
+h1, .talk {
+  color: red;
+}
+
 h1, button {
   font-family: 'Recursive', monospace;
   font-size: 1.5rem;
@@ -1183,6 +1186,4 @@ p {
   font-variation-settings: "CASL" 1, "MONO" 0, "CRSV" 1;
   font-size: 2.5rem;
 }
-
-/* Button */
 
